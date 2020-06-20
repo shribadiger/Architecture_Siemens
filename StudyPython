@@ -1,0 +1,139 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyP1/wnP4NVbBZxaBHd35Gn6",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/shribadiger/Architecture_Siemens/blob/master/StudyPython\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "6mjc7Ujn7U0-",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "4bba54bc-bfc6-4129-986d-f8d357e0a506"
+      },
+      "source": [
+        "value = 3\n",
+        "print(value)"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "3\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Dm4avs6J7pi_",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "c5864c64-00cd-441c-d150-0925a5fef69f"
+      },
+      "source": [
+        "message = \"I am shrikant Badiger\"\n",
+        "print(message, len(message))"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I am shrikant Badiger 21\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "NTz4ilIT-5xZ",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 84
+        },
+        "outputId": "65f681b2-fcfc-41c4-cb41-4e974202daa7"
+      },
+      "source": [
+        "T = True\n",
+        "F = False\n",
+        "print(T and F) #Logical AND Operation\n",
+        "print(T or F) # Logical OR Operation\n",
+        "print(not T) # Logical NOT Operation\n",
+        "print(T != F) #Logical XOR Operation\n"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "False\n",
+            "True\n",
+            "False\n",
+            "True\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Nv4XSGl1_W2t",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "8235fc9c-29fa-47ae-d1d8-1894eee327f4"
+      },
+      "source": [
+        "message = \"I am running \" + \" code in \"+ \" google\"\n",
+        "print(message, len(message))"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I am running  code in  google 29\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
